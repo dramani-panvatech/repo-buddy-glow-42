@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import Footer from '../components/Footer';
 import Heroservice from '../components/Heroservice';
+import IndustriesSection from '../components/IndustriesSection';
 
 // Bootstrap JS removed - using Tailwind CSS
 
@@ -24,6 +25,7 @@ const Home = () => {
       <main>
         <HeroSection />
         <Heroservice />
+        <IndustriesSection />
       </main>
       <Footer />
     </div>
